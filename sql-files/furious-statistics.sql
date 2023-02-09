@@ -26,6 +26,7 @@ CREATE TABLE `furious_global_statistics` (
 	`credits_earned` int(12) NOT NULL DEFAULT 0,
 	`credits_timer` FLOAT NOT NULL DEFAULT '0.0' ,
 	`kills` int(12) NOT NULL DEFAULT 0,
+	`dropshot_kills` int(12) NOT NULL DEFAULT 0,
 	`deaths` int(12) NOT NULL DEFAULT 0,
 	`assists` int(12) NOT NULL DEFAULT 0,
 	`headshots` int(12) NOT NULL DEFAULT 0,
